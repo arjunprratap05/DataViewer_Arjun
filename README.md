@@ -1,12 +1,59 @@
-# React + Vite
+<!-- Gysenergy Project Analysis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Project Overview
 
-Currently, two official plugins are available:
+The Gysenergy project is a TypeScript-based React Progressive Web App (PWA). The project leverages AG-Grid for data management, Redux (or similar) for state management, and visualization tools like Recharts or AG-Charts. It includes CRUD operations for Stores and SKUs, a planning screen with calculated fields, and optional GM% and GM$ charting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Project Structure
 
-## Expanding the ESLint configuration
+Root Directory:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+package.json: Defines dependencies, scripts, and project metadata.
+
+tsconfig.json: TypeScript configuration file.
+
+README.md: Likely contains project setup and usage instructions.
+
+.gitignore: Specifies files to be ignored by Git.
+
+src/ (Source Code)
+
+components/: Contains reusable UI components.
+
+pages/: Defines main application views.
+
+store/: Implements state management (Redux, Zustand, or Context API).
+
+utils/: Contains helper functions and utility logic.
+
+hooks/: Custom React hooks for stateful logic.
+
+services/: API calls and backend interactions.
+
+styles/: Global and component-level styles.
+
+Other Directories:
+
+public/: Static assets like images and manifest files.
+
+tests/: Unit and integration tests (if available).
+
+3. Key Functionalities
+
+Data Management: AG-Grid implementation for efficient data entry.
+
+State Handling: Centralized state control via Redux (or equivalent).
+
+Data Visualization: Dynamic charts for financial metrics.
+
+CRUD Operations: Store & SKU management.
+
+Planning Module: Includes conditional formatting and calculated fields.
+
+PWA Support: Service workers for offline functionality.
+
+4. Deployment & Hosting
+
+Likely using Firebase/Vercel for hosting.
+
+GitHub repository for version control. -->
