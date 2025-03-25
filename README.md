@@ -1,6 +1,6 @@
-Gysenergy Project Analysis
+/*Gysenergy Project Analysis
 
-1. Project Overview
+#1. Project Overview
 
 The Gysenergy project is a TypeScript-based React Progressive Web App (PWA). The project leverages AG-Grid for data management, Redux (or similar) for state management, and visualization tools like Recharts or AG-Charts. It includes CRUD operations for Stores and SKUs, a planning screen with calculated fields, and optional GM% and GM$ charting.
 
@@ -51,6 +51,7 @@ CRUD Operations: Store & SKU management.
 Planning Module: Includes conditional formatting and calculated fields.
 
 PWA Support: Service workers for offline functionality.
+*/
 
 4. Deployment & Hosting
 
