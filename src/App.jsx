@@ -7,6 +7,7 @@ import StorePage from "./pages/StorePage";
 import PlanningPage from "./pages/PlanningPage";
 import ChartPage from "./pages/ChartPage";
 import SKUPage from "./pages/SKUPage";
+import SignIn from "./pages/SignIn";
 
 const App = () => {
   return (
@@ -27,10 +28,11 @@ const App = () => {
       >
         {/* Navbar at the top */}
         <Navbar />
-
+        
         {/* Page Content */}
         <Box sx={{ flexGrow: 1, padding: "20px", overflow: "auto" }}>
           <Routes>
+            <Route path="/SignIn" element={<SignIn />} />
             <Route path="/stores" element={<StorePage />} />
             <Route path="/skus" element={<SKUPage />} />
             <Route path="/planning" element={<PlanningPage />} />
